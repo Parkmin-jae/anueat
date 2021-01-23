@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-	
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		    <meta property="og:type" content="website">
-    <meta property="og:title" content="안동대오늘뭐먹지">
-    <meta property="og:description" content="메뉴를 정하는게 어려울 때! 안동대 오늘 뭐먹지에 물어보세요">
-    <meta property="og:image" content="https://anueat.com/anulogo.jpg">
-    <meta property="og:url" content="https://anueat.com">
-		<meta name="google-site-verification" content="ZjsuHWuxvQC8FmLI9sEl2EtZZKMBK3PpaT0Qe63dPUA" />
-		
-<meta name="naver-site-verification" content="e9763af08aeba151cf953ea65bdc7fad1af2099d" />
-		
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="안동대오늘뭐먹지" />
+        <meta
+            property="og:description"
+            content="메뉴를 정하는게 어려울 때! 안동대 오늘 뭐먹지에 물어보세요"
+        />
+        <meta property="og:image" content="https://anueat.com/anulogo.jpg" />
+        <meta property="og:url" content="https://anueat.com" />
+        <meta
+            name="google-site-verification"
+            content="ZjsuHWuxvQC8FmLI9sEl2EtZZKMBK3PpaT0Qe63dPUA"
+        />
+
+        <meta name="naver-site-verification" content="e9763af08aeba151cf953ea65bdc7fad1af2099d" />
+
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -168,21 +173,20 @@ TO DO:
             <div id="menusPP" class="menus"></div>
 
             <div id="menusTKPP" class="menus"></div>
-			
-			   <div id="menusMapX" class="menus"></div>
-			
-			   <div id="menusMapY" class="menus"></div>
+
+            <div id="menusMapX" class="menus"></div>
+
+            <div id="menusMapY" class="menus"></div>
 
             <div id="showHide" class="ButtonSelected">
-                
-				<button onclick="map()" id="MenuShop" class="MenuShop"></button>
-				
-						<button onclick="mapF()" id="MenuShopF" class="MenuShopF"></button>
+                <button onclick="map()" id="MenuShop" class="MenuShop"></button>
 
-				<div id="MenuName" class="MenuName"></div>
-                <img src="img/Picture.png" class="imgPicture" id="picture"/>
-				
-				<div id="map" style="width:500px;height:400px;" class="map"></div>
+                <button onclick="mapF()" id="MenuShopF" class="MenuShopF"></button>
+
+                <div id="MenuName" class="MenuName"></div>
+                <img src="img/Picture.png" class="imgPicture" id="picture" />
+
+                <div id="map" style="width: 500px; height: 400px;" class="map"></div>
 
                 <div id="MenuImg" class="MenuImg"></div>
                 <div id="MenuPrice" class="MenuPrice"></div>
@@ -221,8 +225,6 @@ TO DO:
             >Please enable JavaScript to view the
             <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript
         >
-		
-		
 
         <script>
             function Menu(shop, name, price, BF, lun, din, kni, place, kind, code, X, Y) {
@@ -236,8 +238,8 @@ TO DO:
                 this.place = place;
                 this.kind = kind;
                 this.code = code;
-				this.Y = X;
-				this.X = Y;
+                this.Y = X;
+                this.X = Y;
             }
             var MacChickenimage = document.getElementById('MacChickenimage');
 
@@ -252,7 +254,8 @@ TO DO:
                 'sol',
                 'Jap',
                 0101,
-				36.545175214805525, 128.79444023558224
+                36.545175214805525,
+                128.79444023558224
             );
             var C0102 = new Menu(
                 '가미노야끼(포장)',
@@ -265,7 +268,8 @@ TO DO:
                 'sol',
                 'Jap',
                 0102,
-				36.545175214805525, 128.79444023558224
+                36.545175214805525,
+                128.79444023558224
             );
 
             var C0103 = new Menu(
@@ -279,7 +283,8 @@ TO DO:
                 'sol',
                 'Jap',
                 0103,
-				36.545175214805525, 128.79444023558224
+                36.545175214805525,
+                128.79444023558224
             );
 
             var C0104 = new Menu(
@@ -293,7 +298,8 @@ TO DO:
                 'sol',
                 'Jap',
                 0104,
-				36.545175214805525, 128.79444023558224
+                36.545175214805525,
+                128.79444023558224
             );
 
             var C0105 = new Menu(
@@ -307,7 +313,8 @@ TO DO:
                 'sol',
                 'Jap',
                 0105,
-				36.545175214805525, 128.79444023558224
+                36.545175214805525,
+                128.79444023558224
             );
 
             var C0201 = new Menu(
@@ -321,7 +328,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0201,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
 
             var C0202 = new Menu(
@@ -335,7 +343,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0202,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
 
             var C0203 = new Menu(
@@ -349,7 +358,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0203,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
             var C0204 = new Menu(
                 '종이밥(포장)',
@@ -362,7 +372,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0204,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
             var C0205 = new Menu(
                 '종이밥(포장)',
@@ -375,7 +386,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0205,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
             var C0206 = new Menu(
                 '종이밥(포장)',
@@ -388,7 +400,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0206,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
 
             var C0207 = new Menu(
@@ -402,7 +415,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0207,
-				36.545100211747545, 128.79412216058125
+                36.545100211747545,
+                128.79412216058125
             );
 
             var C0301 = new Menu(
@@ -416,12 +430,39 @@ TO DO:
                 'sol',
                 'Kor',
                 0301,
-				36.54438760386674, 128.7934088492769
+                36.54438760386674,
+                128.7934088492769
             );
 
-            var C0302 = new Menu('삼겹살', '삼겹살', 8000, 'F', 'F', 'T', 'F', 'sol', 'Kor', 0302,36.54438760386674, 128.7934088492769);
+            var C0302 = new Menu(
+                '삼겹살',
+                '삼겹살',
+                8000,
+                'F',
+                'F',
+                'T',
+                'F',
+                'sol',
+                'Kor',
+                0302,
+                36.54438760386674,
+                128.7934088492769
+            );
 
-            var C0303 = new Menu('삼겹살', '목살', 8000, 'F', 'F', 'T', 'F', 'sol', 'Kor', 0303,36.54438760386674, 128.7934088492769);
+            var C0303 = new Menu(
+                '삼겹살',
+                '목살',
+                8000,
+                'F',
+                'F',
+                'T',
+                'F',
+                'sol',
+                'Kor',
+                0303,
+                36.54438760386674,
+                128.7934088492769
+            );
 
             var C0401 = new Menu(
                 '승부닭(포장)',
@@ -434,7 +475,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0401,
-				36.54443616351908, 128.79276279637438
+                36.54443616351908,
+                128.79276279637438
             );
 
             var C0402 = new Menu(
@@ -448,7 +490,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0402,
-				36.54443616351908, 128.79276279637438
+                36.54443616351908,
+                128.79276279637438
             );
 
             var C0403 = new Menu(
@@ -462,7 +505,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0403,
-				36.54443616351908, 128.79276279637438
+                36.54443616351908,
+                128.79276279637438
             );
 
             var C0404 = new Menu(
@@ -476,7 +520,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0404,
-				36.54443616351908, 128.79276279637438
+                36.54443616351908,
+                128.79276279637438
             );
 
             var C0501 = new Menu(
@@ -490,7 +535,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0501,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0502 = new Menu(
@@ -504,7 +550,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0502,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0503 = new Menu(
@@ -518,7 +565,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0503,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0504 = new Menu(
@@ -532,7 +580,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0504,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0505 = new Menu(
@@ -546,7 +595,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0505,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0506 = new Menu(
@@ -560,7 +610,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0506,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0507 = new Menu(
@@ -574,7 +625,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0507,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0508 = new Menu(
@@ -588,7 +640,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0508,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0509 = new Menu(
@@ -602,7 +655,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0509,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0510 = new Menu(
@@ -616,7 +670,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0510,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0511 = new Menu(
@@ -630,7 +685,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0511,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0512 = new Menu(
@@ -644,7 +700,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0512,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0513 = new Menu(
@@ -658,7 +715,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0513,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0514 = new Menu(
@@ -672,7 +730,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0514,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0515 = new Menu(
@@ -686,7 +745,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0515,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0516 = new Menu(
@@ -700,7 +760,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0516,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0517 = new Menu(
@@ -714,7 +775,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0517,
-				36.54433633260257, 128.79274293194672
+                36.54433633260257,
+                128.79274293194672
             );
 
             var C0601 = new Menu(
@@ -728,7 +790,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0601,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0602 = new Menu(
@@ -742,7 +805,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0602,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
             var C0603 = new Menu(
                 '바베또(포장,배달)',
@@ -755,7 +819,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0603,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0604 = new Menu(
@@ -769,7 +834,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0604,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0605 = new Menu(
@@ -783,7 +849,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0605,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0606 = new Menu(
@@ -797,7 +864,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0606,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0607 = new Menu(
@@ -811,7 +879,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0607,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0608 = new Menu(
@@ -825,7 +894,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0608,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0609 = new Menu(
@@ -839,7 +909,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0609,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0610 = new Menu(
@@ -853,7 +924,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0610,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
             var C0611 = new Menu(
                 '바베또(포장,배달)',
@@ -866,7 +938,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0611,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0612 = new Menu(
@@ -880,7 +953,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0612,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0613 = new Menu(
@@ -894,7 +968,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0613,
-				36.54392334709419, 128.79272021620162
+                36.54392334709419,
+                128.79272021620162
             );
 
             var C0701 = new Menu(
@@ -908,7 +983,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0701,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
             var C0702 = new Menu(
@@ -922,7 +998,8 @@ TO DO:
                 'sol',
                 'Snack',
                 0702,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
             var C0703 = new Menu(
@@ -936,11 +1013,24 @@ TO DO:
                 'sol',
                 'Snack',
                 0703,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
-            var C0704 = new Menu('또또김밥', '라면', 3500, 'F', 'F', 'T', 'F', 'sol', 'Snack', 0704,
-				36.54340609930928, 128.79246449365877);
+            var C0704 = new Menu(
+                '또또김밥',
+                '라면',
+                3500,
+                'F',
+                'F',
+                'T',
+                'F',
+                'sol',
+                'Snack',
+                0704,
+                36.54340609930928,
+                128.79246449365877
+            );
 
             var C0705 = new Menu(
                 '또또김밥',
@@ -953,7 +1043,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0705,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
             var C0706 = new Menu(
@@ -967,11 +1058,24 @@ TO DO:
                 'sol',
                 'Kor',
                 0706,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
-            var C0707 = new Menu('또또김밥', '쫄면', 5000, 'F', 'F', 'T', 'F', 'sol', 'Snack', 0707,
-				36.54340609930928, 128.79246449365877);
+            var C0707 = new Menu(
+                '또또김밥',
+                '쫄면',
+                5000,
+                'F',
+                'F',
+                'T',
+                'F',
+                'sol',
+                'Snack',
+                0707,
+                36.54340609930928,
+                128.79246449365877
+            );
 
             var C0708 = new Menu(
                 '또또김밥',
@@ -984,7 +1088,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0708,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
             var C0709 = new Menu(
@@ -998,7 +1103,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0709,
-				36.54340609930928, 128.79246449365877
+                36.54340609930928,
+                128.79246449365877
             );
 
             var C0801 = new Menu(
@@ -1012,7 +1118,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0801,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0802 = new Menu(
@@ -1026,7 +1133,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0802,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0803 = new Menu(
@@ -1040,7 +1148,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0803,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0804 = new Menu(
@@ -1054,7 +1163,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0804,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0805 = new Menu(
@@ -1068,7 +1178,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0805,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0806 = new Menu(
@@ -1082,7 +1193,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0806,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0807 = new Menu(
@@ -1096,7 +1208,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0807,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0808 = new Menu(
@@ -1110,7 +1223,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0808,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0809 = new Menu(
@@ -1124,7 +1238,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0809,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0810 = new Menu(
@@ -1138,7 +1253,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0810,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0811 = new Menu(
@@ -1152,7 +1268,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0811,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0812 = new Menu(
@@ -1166,7 +1283,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0812,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0813 = new Menu(
@@ -1180,7 +1298,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0813,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0814 = new Menu(
@@ -1194,7 +1313,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0814,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0815 = new Menu(
@@ -1208,7 +1328,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0815,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0816 = new Menu(
@@ -1222,7 +1343,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0816,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0817 = new Menu(
@@ -1236,7 +1358,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0817,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0818 = new Menu(
@@ -1250,7 +1373,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0818,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0819 = new Menu(
@@ -1264,7 +1388,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0819,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0820 = new Menu(
@@ -1278,7 +1403,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0820,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0821 = new Menu(
@@ -1292,7 +1418,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0821,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0822 = new Menu(
@@ -1306,7 +1433,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0822,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0823 = new Menu(
@@ -1320,7 +1448,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0823,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0824 = new Menu(
@@ -1334,7 +1463,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0824,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0825 = new Menu(
@@ -1348,7 +1478,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0825,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0826 = new Menu(
@@ -1362,7 +1493,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0826,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
             var C0827 = new Menu(
                 '피오르달리조(배달,포장)',
@@ -1375,7 +1507,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0827,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
             var C0828 = new Menu(
                 '피오르달리조(배달,포장)',
@@ -1388,7 +1521,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0828,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
 
             var C0829 = new Menu(
@@ -1402,7 +1536,8 @@ TO DO:
                 'sol',
                 'Eng',
                 0829,
-				36.543572684563046, 128.79370940135422
+                36.543572684563046,
+                128.79370940135422
             );
             var C0901 = new Menu(
                 '솔뫼찜닭(포장)',
@@ -1415,7 +1550,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0901,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
             var C0902 = new Menu(
                 '솔뫼찜닭(포장)',
@@ -1428,7 +1564,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0902,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
 
             var C0903 = new Menu(
@@ -1442,7 +1579,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0903,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
 
             var C0904 = new Menu(
@@ -1456,7 +1594,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0904,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
 
             var C0905 = new Menu(
@@ -1470,7 +1609,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0905,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
             var C0906 = new Menu(
                 '솔뫼찜닭(포장)',
@@ -1483,7 +1623,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0906,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
 
             var C0907 = new Menu(
@@ -1497,7 +1638,8 @@ TO DO:
                 'sol',
                 'Kor',
                 0907,
-				36.54497414517516, 128.7950441212386
+                36.54497414517516,
+                128.7950441212386
             );
 
             var C1001 = new Menu(
@@ -1511,7 +1653,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1001,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
             var C1002 = new Menu(
                 '안동대짬뽕',
@@ -1524,7 +1667,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1002,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
             var C1003 = new Menu(
                 '안동대짬뽕',
@@ -1537,7 +1681,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1003,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
 
             var C1004 = new Menu(
@@ -1551,7 +1696,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1004,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
             var C1005 = new Menu(
                 '안동대짬뽕',
@@ -1564,7 +1710,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1005,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
             var C1006 = new Menu(
                 '안동대짬뽕',
@@ -1577,7 +1724,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1006,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
 
             var C1007 = new Menu(
@@ -1591,7 +1739,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1007,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
 
             var C1008 = new Menu(
@@ -1605,7 +1754,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1008,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
 
             var C1009 = new Menu(
@@ -1619,7 +1769,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1009,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
 
             var C1010 = new Menu(
@@ -1633,7 +1784,8 @@ TO DO:
                 'sol',
                 'Chi',
                 1010,
-				36.54507953466948, 128.79463862542912
+                36.54507953466948,
+                128.79463862542912
             );
             var Menulist = [
                 C0101,
@@ -1739,7 +1891,7 @@ TO DO:
                 C1007,
                 C1008,
                 C1009,
-                C1010
+                C1010,
             ];
 
             var BFlist = [];
@@ -1868,8 +2020,8 @@ TO DO:
                 }
                 if (value == 'Chi') {
                     currentSelectedKindMenus = Chilist;
-				}
-            
+                }
+
                 if (value == 'Snack') {
                     currentSelectedKindMenus = Snacklist;
                 }
@@ -1934,8 +2086,6 @@ TO DO:
 
         <script>
             function showHide() {
-				
-
                 document.getElementById('Pink').style.display = 'none';
                 document.getElementById('showHide').style.display = 'block';
 
@@ -1997,41 +2147,22 @@ TO DO:
                 MenuName.innerHTML = A.name;
                 MenuPrice.innerHTML = A.price + '원';
                 MenuShop.innerHTML = A.shop;
-				MenuShopF.innerHTML = A.shop;
-					   menusMapX.innerHTML = A.X;
-				   menusMapY.innerHTML = A.Y;
+                MenuShopF.innerHTML = A.shop;
+                menusMapX.innerHTML = A.X;
+                menusMapY.innerHTML = A.Y;
             }
         </script>
 
-		
         <script>
             function Retry() {
-			
                 var select1 = document.getElementById('select1');
                 document.getElementById('showHide').style.display = 'none';
-						
             }
         </script>
-		
-		<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=941de42aa6cbf0561a6ca40983d576bd"></script>
-		
-		<script>
-			
-			var container = document.getElementById('map');
-			var X =document.getElementById('menusMapX')
-			var Y= document.getElementById('menusMapY')
-			//지도를 담을 영역의 DOM 레퍼런스
-var options = { //지도를 생성할 때 필요한 기본 옵션
-	center: new kakao.maps.LatLng(X,Y), //지도의 중심좌표.
-	level: 3 //지도의 레벨(확대, 축소 정도)
-};
-
-var map = new kakao.maps.Map(container, options); 
-			//지도 생성 및 객체 리턴</script>
 
         <script>
-            function Retry() {  
-				function randomItem(a) {
+            function Retry() {
+                function randomItem(a) {
                     return a[Math.floor(Math.random() * a.length)];
                 }
                 menusTKPP.innerHTML = randomItem(
@@ -2089,14 +2220,13 @@ var map = new kakao.maps.Map(container, options);
                 MenuName.innerHTML = A.name;
                 MenuPrice.innerHTML = A.price + '원';
                 MenuShop.innerHTML = A.shop;
-				   MenuShopF.innerHTML = A.shop;
-				   menusMapX.innerHTML = A.X;
-				   menusMapY.innerHTML = A.Y;
-				
-            };
-               
+                MenuShopF.innerHTML = A.shop;
+                menusMapX.innerHTML = A.X;
+                menusMapY.innerHTML = A.Y;
+            }
+
             document.getElementById('map').style.display = 'none';
-						document.getElementById('picture').style.display = 'block';
+            document.getElementById('picture').style.display = 'block';
         </script>
 
         <script
@@ -2104,21 +2234,22 @@ var map = new kakao.maps.Map(container, options);
             integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
             crossorigin="anonymous"
         ></script>
-		
-		<script>
-		 function map() { 
-document.getElementById('map').style.display = 'block';
-						document.getElementById('picture').style.display = 'none';
-			 
-document.getElementById('MenuShopF').style.display = 'block';
-						document.getElementById('MenuShop').style.display = 'none';			 
-}
-		 function mapF() { document.getElementById('map').style.display = 'none';
-						document.getElementById('picture').style.display = 'block';
-						  
-						  document.getElementById('MenuShopF').style.display = 'none';
-						document.getElementById('MenuShop').style.display = 'block';	
-						 }
-		</script>
+
+        <script>
+            function map() {
+                document.getElementById('map').style.display = 'block';
+                document.getElementById('picture').style.display = 'none';
+
+                document.getElementById('MenuShopF').style.display = 'block';
+                document.getElementById('MenuShop').style.display = 'none';
+            }
+            function mapF() {
+                document.getElementById('map').style.display = 'none';
+                document.getElementById('picture').style.display = 'block';
+
+                document.getElementById('MenuShopF').style.display = 'none';
+                document.getElementById('MenuShop').style.display = 'block';
+            }
+        </script>
     </body>
 </html>
