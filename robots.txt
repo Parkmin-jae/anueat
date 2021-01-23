@@ -1,3 +1,4 @@
 User-agent: *
 Allow:/
-Sitemap: https://www.anueat.com/sitemap.xml
+Sitemap:https://anueat.com/sitemap.xml
+
