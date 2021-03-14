@@ -152,9 +152,9 @@ TO DO:
                         <option value="hide">-- 가격 선택 --</option>
                         <option value="any price">아무 가격</option>
                         <option value="5000">오천원 이하</option>
-                        <option value="10000">만 원 이하</option>
-                        <option value="30000">삼만원 이하</option>
-                        <option value="over30000">삼만원 초과</option>
+                        <option value="10000">만원 이하</option>
+                        <option value="20000">이만원 이하</option>
+                        <option value="over20000">이만원 초과</option>
                     </select>
 
                     으로
@@ -6454,10 +6454,10 @@ TO DO:
                 if (Menulist[i].price <= 10000) {
                     midlist.push(Menulist[i]);
                 }
-                if (Menulist[i].price <= 30000) {
+                if (Menulist[i].price <= 20000) {
                     highlist.push(Menulist[i]);
                 }
-                if (Menulist[i].price > 30000) {
+                if (Menulist[i].price > 20000) {
                     overlist.push(Menulist[i]);
                 }
             }
@@ -6556,10 +6556,10 @@ TO DO:
                 if (value == '10000') {
                     currentSelectedPriceMenus = midlist;
                 }
-                if (value == '30000') {
+                if (value == '20000') {
                     currentSelectedPriceMenus = highlist;
                 }
-                if (value == 'over30000') {
+                if (value == 'over20000') {
                     currentSelectedPriceMenus = overlist;
                 }
 
